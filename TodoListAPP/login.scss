@@ -1,0 +1,29 @@
+@import "./static/Style_depend/scss/functions";
+@import "./static/Style_depend/scss/variables";
+@import "./static/Style_depend/scss/mixins";
+
+body {
+  box-sizing: content-box;
+}
+#alogin {
+  border-bottom: solid $gray-500;
+  padding-bottom: 2px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+#aSignup {
+  &:hover {
+    text-decoration: none;
+  }
+}
+.formContainer {
+  display: grid;
+  grid-template-columns: 150px 50%;
+  row-gap: 20px;
+  margin-right: 10px;
+}
+#logMeIn {
+  margin-top: 30px;
+  margin-left: 60%;
+}

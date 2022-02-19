@@ -1,0 +1,23 @@
+<div class="container text-center mt-3">
+    <div class="text-center mt-3" id="authBtns">
+        <button type="button" id="btnSignup" class="px-3 btn btn-outline-primary "> Sign
+            up</button>
+        <a href="#" id="alogin" class="ml-3 text-dark mr-3">
+            login
+        </a>
+    </div>
+    <form action="authentication.php" method="post">
+
+        <div class="formContainer mt-5 ">
+            <p>Enter your email</p>
+            <input class="form-control " type="text" name="username" id="username" placeholder="email or username"
+                autocomplete="off">
+            <p>Enter a password</p>
+            <input class="form-control" type="password" name="password" id="password" placeholder="Eneter a password">
+
+
+        </div>
+        <button type=submit name='logMeIn' id="logMeIn" class="btn btn-outline-success">Log me In!</button>
+
+    </form>
+</div>

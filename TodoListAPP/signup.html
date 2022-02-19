@@ -1,0 +1,26 @@
+<div class="container text-center mt-3">
+    <a href="#" id="aSignup" class="text-dark mr-3">
+        Sign up
+    </a>
+    <button id="loginbtn" type="button" class="px-3 btn btn-outline-primary "> login</button>
+
+
+
+    <form id="authenticationForm" method="post">
+        <div class="formContainer mt-5 ">
+            <p>Enter your email</p>
+            <input class="form-control" type="text" name="username" id="username" placeholder="email or username"
+                autocomplete="off" required>
+            <p>Enter a password</p>
+            <input class="form-control" type="password" onkeyup="checkPassword(this.value)" name="password"
+                id="password" placeholder="at least 6 caracters!">
+            <p>Repeat the passowrd</p>
+            <input class="form-control" type="password" name="repeatPassword" id="repeatPassword"
+                onkeyup="checkPasswordMatch(this.value)" placeholder="Repeat the password">
+
+        </div>
+        <button type="submit" id="signMeUp" name="signMeUp" class="btn btn-outline-success">Sign me up!</button>
+    </form>
+
+
+</div>

@@ -1,0 +1,59 @@
+.bck_img {
+    background-image: url("../media/img.jpg");
+    
+height: 1000px;
+opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;  /* in order to report it to the upper level*/
+  
+ 
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+
+h3{
+
+    color: rgb(121, 160, 160);
+    font-family: monospace;
+    position: relative;
+}
+
+input {
+    position: relative;
+    height: 18px;
+    border-radius: 9px;
+}
+button {
+
+    margin-left: 30px;
+    border-radius: 7px;
+    width: max-content;
+    height: max-content;
+    
+    color: teal ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: relative;
+
+    
+}
+input {
+    height: 24px;
+    border-radius: 9px;
+}
+ h4 {
+    
+    color: rgb(243, 56, 97);
+    font-family: monospace;
+    position: relative;
+ }
+
+  

@@ -1,0 +1,62 @@
+@import "./static/Style_depend/scss/functions";
+@import "./static/Style_depend/scss/variables";
+@import "./static/Style_depend/scss/mixins";
+
+.container {
+  .dropdown {
+    display: initial;
+  }
+  .add-task {
+    float: right;
+    #new-ta {
+      margin-right: 30px;
+      box-sizing: content-box;
+      height: 50px;
+      width: 50px;
+      border-radius: 8px;
+      font-family: "ubuntu mono", "genuine";
+      background-color: white;
+      color: #1c3676;
+      border-width: 1px;
+      border-color: #7bc4ff;
+      padding: 2px 10px;
+    }
+  }
+}
+// you can work with mixins here in done and undone is better
+#done {
+  background-color: #9ee29b;
+  opacity: 0.8;
+
+  font-family: "ubuntu mono";
+  border: 2px rgb(78, 219, 137) solid;
+  border-radius: 5px;
+  background-color: rgb(206, 240, 202);
+}
+#task_input {
+  font-family: monospace;
+  border-radius: 4px;
+  background-color: $gray-100;
+  &::placeholder {
+    font-family: sans-serif;
+    font-size: small;
+    color: $gray-500;
+    font-style: italic;
+  }
+}
+#undone {
+  font-family: monospace;
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid rgba(66, 132, 255, 0.411);
+}
+#Layer_1 path {
+  fill: lighten($primary, 0.8);
+}
+#Layer_1:hover {
+  fill: $gray-400;
+  cursor: pointer;
+}
+#reda:hover {
+  background-color: red;
+}

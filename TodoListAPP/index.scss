@@ -1,0 +1,72 @@
+@import "./static/Style_depend/scss/functions";
+@import "./static/Style_depend/scss/variables";
+@import "./static/Style_depend/scss/mixins";
+
+@media (min-width: 900px) {
+  .container1 {
+    display: grid;
+    grid-template-columns: 90px auto;
+    .imgContainer {
+      img {
+        border: rgb(191, 199, 235) solid;
+        float: right;
+        margin-right: 3rem;
+        margin-top: 25px;
+        height: 430px;
+        width: 840px;
+
+        filter: drop-shadow(10px 15px 120px $gray-500);
+
+        transform: rotate3d(-1.2, 0.5, 0.5, 60deg);
+
+        transform-style: preserve-3d;
+      }
+    }
+  }
+  p {
+  }
+}
+
+@media (max-width: 800px) {
+  .container1 {
+    .imgContainer {
+      img {
+        margin-bottom: 10%;
+        margin-left: 25%;
+        margin-right: 3rem;
+        margin-top: 25px;
+        height: 400px;
+        width: 190px;
+        transform: rotate3d(0.4, -0.9, 1, 30deg);
+        filter: drop-shadow(18px 18px 20px $gray-500);
+      }
+    }
+  }
+}
+
+.containerFooter {
+  color: white;
+  background-color: $gray-800;
+  height: 100px;
+}
+.copy {
+  font-family: "genuine";
+}
+.fa-toggle-on,
+.fa-toggle-off {
+  width: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.toggleText {
+  color: $gray-600;
+}
+.containerImgProductivity {
+  margin-top: 100px;
+  margin-left: 30px;
+  display: grid;
+  column-gap: 10%;
+  grid-template-columns: 25% auto;
+  margin-bottom: 100px;
+}

@@ -1,0 +1,27 @@
+body {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+#aSignup {
+  border-bottom: solid #adb5bd;
+  padding-bottom: 2px;
+}
+
+#aSignup:hover {
+  text-decoration: none;
+}
+
+.formContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 150px 50%;
+      grid-template-columns: 150px 50%;
+  row-gap: 20px;
+  margin-right: 10px;
+}
+
+#signMeUp {
+  margin-top: 30px;
+  margin-left: 60%;
+}

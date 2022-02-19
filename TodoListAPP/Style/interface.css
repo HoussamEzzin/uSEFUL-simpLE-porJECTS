@@ -1,0 +1,85 @@
+.container .dropdown {
+  display: initial;
+}
+
+.container .add-task {
+  float: right;
+}
+
+.container .add-task #new-ta {
+  margin-right: 30px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  font-family: "ubuntu mono", "genuine";
+  background-color: white;
+  color: #1c3676;
+  border-width: 1px;
+  border-color: #7bc4ff;
+  padding: 2px 10px;
+}
+
+#done {
+  background-color: #9ee29b;
+  opacity: 0.8;
+  font-family: "ubuntu mono";
+  border: 2px #4edb89 solid;
+  border-radius: 5px;
+  background-color: #cef0ca;
+}
+
+#task_input {
+  font-family: monospace;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+#task_input::-webkit-input-placeholder {
+  font-family: sans-serif;
+  font-size: small;
+  color: #adb5bd;
+  font-style: italic;
+}
+
+#task_input:-ms-input-placeholder {
+  font-family: sans-serif;
+  font-size: small;
+  color: #adb5bd;
+  font-style: italic;
+}
+
+#task_input::-ms-input-placeholder {
+  font-family: sans-serif;
+  font-size: small;
+  color: #adb5bd;
+  font-style: italic;
+}
+
+#task_input::placeholder {
+  font-family: sans-serif;
+  font-size: small;
+  color: #adb5bd;
+  font-style: italic;
+}
+
+#undone {
+  font-family: monospace;
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid rgba(66, 132, 255, 0.411);
+}
+
+#Layer_1 path {
+  fill: #047dff;
+}
+
+#Layer_1:hover {
+  fill: #ced4da;
+  cursor: pointer;
+}
+
+#reda:hover {
+  background-color: red;
+}
